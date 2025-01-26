@@ -30,3 +30,14 @@ input, select, button {
     width: 200px;
     font-size: 16px;
 }
+
+button {
+    background-color: darkmagenta;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(141, 85, 141, 0.37);
+    border: none;
+}
