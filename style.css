@@ -29,6 +29,7 @@ input, select, button {
     margin: 5px;
     width: 200px;
     font-size: 16px;
+    border-radius: 5px;
 }
 
 button {
