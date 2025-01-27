@@ -1,3 +1,5 @@
+
+
 document.getElementById('akan-form').addEventListener('submit', function (event) {
     event.preventDefault();
 
@@ -7,12 +9,12 @@ document.getElementById('akan-form').addEventListener('submit', function (event)
     const gender = document.getElementById('gender').value;
 
     if (day <= 0 || day > 31) {
-        alert("Please enter a valid day (1-31).");
+        alert("Please enter a valid day.");
         return;
     }
 
     if (month <= 0 || month > 12) {
-        alert("Please enter a valid month (1-12).");
+        alert("Please enter a valid month.");
         return;
     }
 
